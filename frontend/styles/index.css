@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: axiforma-regular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    /* background: #f6f6f9;
+    color: #111; */
 }
 
 .colorDiv1{
@@ -120,14 +122,14 @@
  display: flex;
  flex-direction: column;
  gap: 20px;
- border: 2px solid black;
+ /* border: 2px solid black; */
 }
 #secDiv2{
     width: 50%;
  display: flex;
  flex-direction: column;
  gap: 20px;
- border: 2px solid black;
+ /* border: 2px solid black; */
 
 }
 
@@ -205,7 +207,7 @@
     }
     
     #firstDiv{
-        border: 2px solid red;
+        /* border: 2px solid red; */
      width: 100%;
     }
     #page1 img{
@@ -216,7 +218,7 @@
         width: 100%;
         display: flex;
         flex-direction: row;
-        border: 2px solid purple;
+        /* border: 2px solid purple; */
         gap: 20px;
     }
     
@@ -225,14 +227,14 @@
      display: flex;
      flex-direction: column;
      gap: 20px;
-     border: 2px solid black;
+     /* border: 2px solid black; */
     }
     #secDiv2{
         width: 50%;
      display: flex;
      flex-direction: column;
      gap: 20px;
-     border: 2px solid black;
+     /* border: 2px solid black; */
     
     }
     #thirdPage{
@@ -245,7 +247,7 @@
     }
     .thirdCard{
         width: 100%;
-        border: 2px solid blue;
+        /* border: 2px solid blue; */
         height: 350px;
         display: flex;
     }

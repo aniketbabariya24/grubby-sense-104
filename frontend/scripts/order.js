@@ -38,7 +38,7 @@ orders.forEach(el=>{
                       <td>${el.paymentStatus}</td>
                       <td class="${el.shipping==='Declined' ? 'danger' :  el.shipping==='pending' ? 'warning': 'primary'}">${el.shipping}</td>
                       <td class="primary">Details</td>`
-
+                       
                       tr.innerHTML=trContent;
 
                       document.querySelector('table tbody').appendChild(tr);
