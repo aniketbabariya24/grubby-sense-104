@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#foot img{
+  max-width: 100%;
+}
+#foot a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+#foot ul{
+  list-style: none;
+}
+#foot body{
+    color: #333;
+    font-size: 16px;
+}
+#foot .container2{
+    margin: 0 auto;
+    width: 85%;
+    /* border: 2px solid red; */
+}
+#foot .container{
+    margin: 0 auto;
+    width: 700px;
+    /* border: 2px solid rgb(255, 0, 144); */
+    align-items: center;
+}
+
+
+
+#foot  .subscribe {
+	/* border: 3px solid #ff660e; */
+	border-radius: 8px;
+	text-align: center;
+	padding: 15px 0 40px;
+	margin-top: 90px;
+	background-color: #ff7782;
+  align-items: center;
+  height: 100px;
+}
+#foot .subscribe h4 {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+#foot .subscribe p {
+  font-style: italic;
+  margin-bottom: 30px;
+}
+#foot .subscribe input {
+  width: 60%;
+  padding: 2px;
+  border: 0;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  font-size: 16px;
+}
+#foot .subscribe form {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+#foot .subscribe input[type="submit"] {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+  background-color: #7380ec;
+  color: #fff;
+  /* text-transform: uppercase; */
+  cursor: pointer;
+  padding: 2px 10px;
+  margin-right: 134px;
+}
+#foot .footer-area {
+	background-image: url('img/footer.jpg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	z-index: 2;
+	color: #000;
+	padding: 160px 0 80px;
+	margin-top: -115px;
+	z-index: -1;
+}
+#foot .footer-area:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #f6f6f9;
+  opacity: .9;
+  z-index: -1;
+}
+
+#foot .footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#foot .single-footer:nth-child(1) {
+  flex-basis: 33%;
+}
+#foot .single-footer h4 {
+  text-transform: capitalize;
+  font-size: 22px;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  /* border: 2px solid olivedrab; */
+  text-align: center;
+}
+#foot .single-footer h4:before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  /* background-color: #ff660e; */
+  bottom: 0;
+}
+#foot .footer-social {
+  margin-top: 20px;
+}
+#foot .footer-social a {
+  border: 1px solid #fff;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+#foot .footer-social a:hover {
+  background-color: #ff660e;
+  border-color: #ff660e;
+}
+#foot .single-footer ul li {
+  text-transform: capitalize;
+  font-size: 17px;
+  /* border-bottom: 1px dashed #4a4040; */
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+#foot .single-footer ul li:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#foot .single-footer ul li i {
+  margin-right: 5px;
+}
+#foot .single-footer ul li a:hover {
+  color: #ff660e;
+}
+
+#foot .footer-bottom-area {
+  background-color: #333;
+  padding: 10px 0;
+  color: #fff;
+}
+#foot .footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* color: black; */
+}
+#foot .copy p {
+  text-transform: capitalize;
+}
+#foot .footer-menu a {
+  text-transform: capitalize;
+  margin-left: 10px;
+  transition: .3s;
+  color: #fff;
+}
+#foot .footer-menu a:hover {
+  color: #ff660e;
+}
+
+
+@media only screen and (min-width:992px) and (max-width: 1200px) {
+ #foot  .container{
+    width: 970px;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width: 991px) {
+ #foot  .container{
+    width: 750px;
+  }
+  #foot .subscribe form {
+    max-width: 600px;
+  }
+  #foot .single-footer {
+    flex-basis: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container{
+    width: 350px;
+  }
+  .subscribe-area{
+    display: none;
+  }
+  .subscribe form {
+    max-width: 100%;
+    margin: 0 20px;
+    display: none;
+  }
+  .subscribe input[type="submit"] {
+    position: static;
+    width: 100%;
+    margin-top: 15px;
+  }
+  .single-footer, .single-footer:nth-child(1){
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .footer-menu a {
+    text-transform: capitalize;
+    margin-left: 7px;
+    transition: .3s;
+    font-size: 14px;
+  }
+  .copy p {
+    text-transform: capitalize;
+    margin-top: 15px;
+  }
+}

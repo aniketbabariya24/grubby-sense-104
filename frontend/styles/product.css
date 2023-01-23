@@ -17,7 +17,7 @@
   }
   #search-container {
     margin: 1em 0;
-    border: 2px solid green;
+    /* border: 2px solid green; */
   }
   #search-container input {
     background-color: transparent;
