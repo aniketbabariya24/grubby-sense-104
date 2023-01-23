@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="../styles/product.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div id="search-container">
+         
+          <button id="search">Go to Cart</button>
+        </div>
+        <div id="buttonsb">
+          <button class="button-value" onclick="getProduct()">All</button>
+          <button class="button-value" onclick="filterFurniture()">
+           Furniture
+          </button>
+          <button class="button-value" onclick="filterDecoration()">
+            Decoration
+          </button>
+          <button class="button-value" onclick="filterKitchen()">
+            Kitchen
+          </button>
+          <button class="button-value" onclick="filterProduct('Watch')">
+            Bedroom
+          </button>
+          <button class="button-value" onclick="sorthigh()">
+            High to Low
+          </button>
+          <button class="button-value" onclick="sortlow()">
+            Low to High
+          </button>
+        </div>
+        <div id="products"></div>
+      </div>
+</body>
+</html>
+<script src="../scripts/product.js"></script>
