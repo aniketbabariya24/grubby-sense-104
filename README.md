@@ -11,3 +11,11 @@ this site has
 -Login Page
 -Product Page
 -Cart Page
+-Admin Page
+
+
+Functionality
+
+Filter
+Login
+Sign Up
