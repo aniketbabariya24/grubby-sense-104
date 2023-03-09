@@ -1,25 +1,27 @@
-# grubby-sense-104
+<h1>grubby-sense-104 (IKEA Clone)- SOLO PROJECT
 
-Created by: Aniket Babariya
+<h1>Created by: Aniket Babariya</h1>
 
-TechStacks:
-<h3>HTML</h3>
-<h3>CSS</h3>
-<h3>JavaScript</h3>
-<h3>Node.JS</h3>
-<h3>Express.JS</h3>
-<h3>MongoDB (DATABASE)</h3>
-<h3>BoostTrap (Extrnal CSS)</h3>
+ <h1>Deploy Links</h1>
+<h3>FRONTEND (Netlify): https://tubular-kringle-d35bb2.netlify.app/ </h3>
+<h3>BACKTEND (Cyclic): https://gray-tired-gharial.cyclic.app </h3>
+  <br>
+  
+  <h1>TechStacks</h1>
+<h3># HTML</h3>
+<h3># CSS</h3>
+<h3># JavaScript</h3>
+<h3># Node.JS</h3>
+<h3># Express.JS</h3>
+<h3># MongoDB (DATABASE)</h3>
+<h3># BoostTrap (External CSS Library)</h3>
+<BR>
 
-This site is clone of IKEA.com which I made in my construct week (NXM-101)
-this site has
--Home page
--Sign Up Page
--Login Page
--Product Page
--Cart Page
--Admin Page
+  <h1>APIs</h1>
+<h3>LogIn API:</h3>
 
+<BR>
+  
 <h1>Sign Up</h1>
 
 ![Screenshot 2023-03-09 083809](https://user-images.githubusercontent.com/112626195/223912653-b27412b2-44c5-4579-8edd-e32002299de2.png)
