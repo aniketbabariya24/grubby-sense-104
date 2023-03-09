@@ -18,7 +18,14 @@
 <BR>
 
   <h1>APIs</h1>
-<h3>LogIn API:</h3>
+<h3>LogIn API: http://localhost:2423/users/login</h3>
+ <h3>SignUp API: http://localhost:2423/users/register</h3>
+ <h3>Product API: http://localhost:2423/products</h3>
+ <h3>Filter1 API: http://localhost:2423/products/decoration</h3>
+ <h3>Filter2 API: http://localhost:2423/products/kitchen</h3>
+ <h3>Filter3 API: http://localhost:2423/products/furniture</h3>
+ <h3>Sort1: API: http://localhost:2423/products/sorthigh</h3>
+ <h3>Sort2: API: http://localhost:2423/products/sortlow</h3>
 
 <BR>
   
